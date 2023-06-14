@@ -8,7 +8,7 @@ It also provides a common and easy framework for development and evaluation of y
 ## Dataset
 ### Generated Datasets
 The datasets, including the original train/valiation/test data, the generated training data, as well as label names are available in Huggingface Dataset Hub:
-| Dataset | # of Train | # of Test | # Classes | Task Type | Domain | Link | 
+| Dataset | # Train | # Test | # Class | Task  | Domain | Link | 
 | ------  | ------- | ----- | ----------- | ----------- | ----------- | ----------- |
 |  NYT | 9k | 1.15k | 26 | Multiclass | News | [nyt-attrprompt](https://huggingface.co/datasets/yyu/nyt-attrprompt)
 | Amazon | 13.8k | 1.1k | 23 | Multiclass | Review |  [amazon-attrprompt](https://huggingface.co/datasets/yyu/amazon-attrprompt)
