@@ -17,7 +17,7 @@ The datasets, including the original train/valiation/test data, the generated tr
 | arXiv | 26.1k | 27.8k | 98 | Multilabel | Paper | [arxiv-attrprompt](https://huggingface.co/datasets/yyu/arxiv-attrprompt)
 
 Besides, we also provide the generated dataset for the AG News, SST-2/IMDB, Yelp, which is studied in Appendix. The detailed information is listed as follows:
-| Dataset | # of Train | # of Test | # Classes | Task Type | Domain | Link | 
+| Dataset | # Train | # Test | # Class | Task  | Domain | Link | 
 | ------  | ------- | ----- | ----------- | ----------- | ----------- | ----------- |
 |  AG News | 6k | 7.6k | 4 | Multiclass | News | [agnews-attrprompt](https://huggingface.co/datasets/yyu/agnews-attrprompt)
 | SST-2 | 6k | 0.8k | 2 | Multiclass | Movie Review |  [SST-2-attrprompt](https://huggingface.co/datasets/yyu/SST-2-attrprompt)
