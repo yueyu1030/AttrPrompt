@@ -3,7 +3,7 @@ This repo contains the code and dataset used in the paper [Large Language Model 
 It also provides a common and easy framework for development and evaluation of your own weak supervision models within the benchmark.
 
 ## Framework
-![Attrprompt](figure/workflow-v3-cut.pdf)
+![Attrprompt](figure/workflow-v3-cut.png)
 
 ## Dataset
 ### Generated Datasets
