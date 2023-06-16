@@ -1,6 +1,6 @@
 # AttrPrompt
 This repo contains the code and dataset used in the paper [Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias](). 
-It also provides a common and easy framework for development and evaluation of your own weak supervision models within the benchmark.
+It also provides a framework for development and evaluation of your own training data generation models.
 
 ## Framework
 ![Attrprompt](figure/workflow-v3-cut.png)
@@ -24,7 +24,7 @@ Besides, we also provide the generated dataset for the AG News, SST-2/IMDB, Yelp
 | Yelp | 6k | 38k | 2 |Multiclass | Restaurant Review | [yelp-attrprompt](https://huggingface.co/datasets/yyu/yelp-attrprompt)
 
 ###  Dataset Attributes
-Coming soon ...
+Please see the subfolders on the `./datasets` directory for attributes information.
 
 ## Code for Training Data Generation
 Coming soon...
