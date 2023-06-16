@@ -1,0 +1,17 @@
+Difficulty integrating SDL with a custom graphics library
+Inability to compile SDL on a specific operating system
+Trouble using SDL with GPUs from certain manufacturers
+SDL-based application not working correctly on high-DPI displays
+Difficulty using SDL to create a virtual reality application
+Performance issues when using SDL with large textures or high-resolution displays
+Error messages related to missing or outdated dependencies when using SDL
+SDL-based application crashing on startup due to memory issues
+Difficulty creating multithreaded applications with SDL
+Issues with key repeat behavior in SDL-based applications
+Difficulty using SDL with specialized input devices (such as joysticks or gamepads)
+SDL-based applications running at a lower framerate than expected
+Difficulty integrating SDL with a third-party physics engine
+Difficulty implementing custom font rendering with SDL
+Difficulty using SDL to create iOS or Android applications
+Difficulty implementing screen recording with SDL
+Errors related to dynamic library loading when using SDL on certain operating systems.

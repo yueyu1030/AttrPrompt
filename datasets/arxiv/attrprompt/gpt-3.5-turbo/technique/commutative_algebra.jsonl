@@ -1,0 +1,10 @@
+1. Gröbner bases: A computational algorithm used to solve systems of polynomial equations.
+2. Free resolutions: A method for computing algebraic invariants of ideals and modules.
+3. Localization: A technique for studying rings and modules by "inverting" elements.
+4. Homological methods: Using the machinery of homology and cohomology to study algebraic structures.
+5. Primary decomposition: A tool for decomposing ideals into primary components, which facilitates understanding of ring structure.
+6. Constructive method: An approach that emphasizes explicit constructions of algebraic objects.
+7. Buchberger's algorithm: A variant of Gröbner bases that is designed to terminate quickly for certain classes of polynomial systems.
+8. Syzygies: Linear dependencies between elements of a free module, used to study algebraic structures.
+9. Representation theory: Studying algebraic structures by looking at their "representations" as matrices or linear maps.
+10. Commutative algebraic geometry: A branch of mathematics that studies the geometry of algebraic objects, focusing on commutative rings and their modules.

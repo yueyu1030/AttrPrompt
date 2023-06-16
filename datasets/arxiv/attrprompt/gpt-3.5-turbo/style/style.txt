@@ -1,0 +1,4 @@
+Experimental: This style focuses on presenting empirical research with a strong emphasis on experimental design, data collection, and statistical analysis.
+Theoretical: This style emphasizes the development of new theoretical frameworks or conceptual models. 
+Review: This style involves synthesizing and analyzing existing literature on a specific topic.
+Case Study: This style presents an in-depth examination of a specific case or situation, aiming to provide insights into complex phenomena or phenomena that are context-specific. 

@@ -1,0 +1,10 @@
+Action
+Drama
+Comedy
+Thriller
+Romance
+Horror
+Adventure
+Science Fiction
+Fantasy
+Animation

@@ -1,0 +1,19 @@
+1. "Entity-Component-System architectural pattern" on Wikipedia - provides an overview of the ECS pattern, its history, and its benefits.
+
+2. "Game Programming Patterns" book by Robert Nystrom - includes a section on implementing an ECS architecture in game development.
+
+3. "The Data-Oriented Design book" by Richard Fabian - covers data-oriented design principles that can be applied to entity systems.
+
+4. "Entity Systems in Rust" book by Adam Martin - a tutorial on implementing an ECS system in Rust programming language.
+
+5. "Unity ECS Tutorial series" by Catlike Coding - provides a step-by-step guide to implementing ECS in Unity game engine.
+
+6. "Entity System articles" by T-machine.org - a collection of articles about entity systems, their design, and usage.
+
+7. "LibGDX Entity Systems Wiki" - a wiki that provides information about implementing entity systems in LibGDX game engine.
+
+8. "ECSY: Entity Component System in JavaScript" - an open-source library for implementing ECS in JavaScript.
+
+9. "An Introduction to ECS" by Kyle Halladay - a blog post that provides an introduction to entity systems and their usage in game development.
+
+10. "Entity Component System implementation in C++" by Lee Zhi Eng - a tutorial on implementing a simple ECS system in C++.

@@ -1,0 +1,10 @@
+Bugs in the particle system of libgdx
+Finding the cause of intermittent performance issues in a libgdx game
+Debugging issues with texture atlases in libgdx
+Troubleshooting issues with screen resizing and resolution handling in libgdx
+Implementing 2D physics simulations with libgdx
+Debugging crashes in the libgdx JNI layer on Android
+Understanding how to use and optimize the libgdx SpriteBatch batching system
+Implementing custom AI systems with libgdx
+Debugging issues with the libgdx FreeType font rendering system
+Others scenario for libgdx.

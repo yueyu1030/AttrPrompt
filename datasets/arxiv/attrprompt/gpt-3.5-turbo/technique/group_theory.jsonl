@@ -1,0 +1,11 @@
+1. Computational group theory: This involves using computers to solve problems in group theory, such as determining whether two groups are isomorphic or finding a presentation for a group. 
+2. Geometric group theory: This studies groups through their actions on geometric objects, such as surfaces or hyperbolic spaces. 
+3. Schreier-Sims Algorithm: This algorithm computes a base and strong generating set for a permutation group, providing a practical way to represent and work with permutation groups.
+4. Algorithmic randomness and group theory: This investigates the connection between randomness and group theory, such as the properties of groups that arise from random generation. 
+5. Group cohomology: This involves studying groups through their associated cohomology groups, which measure the extent to which a group fails to be commutative. 
+6. Topological group theory: This studies groups as topological spaces and seeks to understand the relationship between the algebraic and topological structures of groups. 
+7. Group Presentation: It is a model that represents a group by specifying generators and relations, enabling the study of group properties and structures through presentations.
+8. Von Neumann algebras and group theory: This investigates the connection between groups and operator algebras, which are structures used in quantum mechanics. 
+9. Polycyclic Presentations: It is an algorithmic approach that represents groups using a polycyclic series, providing a systematic way to study and compute with finitely presented groups.
+10. Normalizer Algorithm: This algorithm finds the normalizer of a subgroup within a larger group, enabling the investigation of centralizers and normal subgroups.
+

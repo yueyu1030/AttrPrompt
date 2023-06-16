@@ -1,0 +1,10 @@
+1. Euclidean Voronoi diagram algorithm
+2. Sweep line algorithm for computing the planar arrangement of line segments
+3. Topologically constrained surface simplification algorithm
+4. Convex hull algorithm for 3-dimensional point sets
+5. Discrete minimum curvature surface fitting algorithm
+6. Triangular mesh morphing algorithm
+7. Efficient algorithm for computing geometric medians in high dimensions
+8. Spatial indexing technique for geometric objects based on R-tree
+9. Efficient algorithms for computing combinatorial maps of 2-manifolds
+10. Iterative algorithm for constructing Delaunay triangulations in higher dimensions

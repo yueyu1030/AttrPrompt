@@ -1,0 +1,10 @@
+1. Convex optimization algorithms
+2. Graph theory algorithms (e.g. shortest path algorithms, maximum flow algorithms)
+3. Combinatorial optimization algorithms (e.g. linear and quadratic programming, integer programming)
+4. Game-theoretic algorithms for mechanism design (e.g. Vickrey-Clarke-Groves (VCG) mechanism)
+5. Randomized algorithms for local search and optimization problems
+6. Dynamic programming algorithms for solving control problems
+7. Branch and bound algorithms for global optimization problems
+8. Iterative algorithms for solving nonlinear equations (e.g. Newton-Raphson method)
+9. Simulation-based optimization algorithms (e.g. Monte Carlo simulation)
+10. Swarm intelligence algorithms for optimization and search problems (e.g. particle swarm optimization)

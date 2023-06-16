@@ -1,0 +1,11 @@
+4. Issues with controlling objects' movement using Box2D physics and user input simultaneously.
+6. Debugging Box2D errors related to undefined behaviors in simulations.
+7. Difficulty creating a joint that behaves correctly with Box2D physics.
+10. Issues with Box2D's performance when simulating hundreds or thousands of objects at once.
+11. Difficulty creating a realistic physics simulation using Box2D for a specific scenario.
+12. Debugging issues with custom shape classes in Box2D.
+13. Difficulty scaling Box2D physics simulation for different resolution screens.
+14. Problem with Box2D applying incorrect torque when objects collide.
+17. Debugging Box2D errors related to occlusion and camera positioning.
+18. Problem with Box2D physics simulation not accurately reflecting real-world physics.
+Other topics on Box2D

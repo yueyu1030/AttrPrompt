@@ -1,0 +1,5 @@
+Specific: Be specific in your question by including relevant details, such as error messages, code snippets, or specific scenarios, to help the community provide accurate and targeted answers.
+Comparative: Compare different approaches, technologies, or methodologies, and ask for insights or opinions from the community on their strengths, weaknesses, and suitability for your specific situation.
+Problem-Solution: Present a problem or challenge you are encountering and outline any attempted solutions, seeking feedback or alternative approaches from the community to help you find an optimal solution.
+Troubleshooting: Describe a specific issue or error you are encountering and provide any relevant error messages or logs, seeking assistance in identifying the cause and potential solutions.
+Tutorial-Based: Ask for guidance or step-by-step instructions on how to achieve a specific task or goal, seeking expertise and advice from the community.

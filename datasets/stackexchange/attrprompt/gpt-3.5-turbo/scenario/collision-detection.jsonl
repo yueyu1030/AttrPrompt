@@ -1,0 +1,7 @@
+Overcoming memory limitations when simulating large-scale fluid dynamics
+Resolving edge-cases when simulating collisions between small objects 
+Overcoming performance bottlenecks when simulating complex granular media 
+Implementing collision detection for particles in dynamic systems
+Improving detection accuracy for 2D surface collisions in a custom game engine
+Improving detection accuracy and performance for overlapping convex polygons.
+other scenarios on collision-detection.

@@ -1,0 +1,10 @@
+1. Primality testing using elliptic curves
+2. Continued fraction factorization method
+3. Algorithm for solving Diophantine equations
+4. Quadratic sieve algorithm for integer factorization
+5. Pollard rho algorithm for integer factorization
+6. Digital sum subtraction method for computing discrete logarithm
+7. Fermat's method for factorization of primes
+8. Chinese remainder algorithm for solving modular equations 
+9. Exponential-sum algorithm for computing in algebraic number fields 
+10. Generalized Ramanujan-Selberg formula for counting integer points on algebraic varieties.

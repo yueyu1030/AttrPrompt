@@ -1,0 +1,18 @@
+1. Trouble understanding A star and its implementation.
+2. Difficulty in dealing with dynamic obstacles while pathfinding.
+3. Issues with optimizing pathfinding algorithms for large grids.
+4. Difficulty in balancing pathfinding speed and accuracy.
+5. Struggling with implementing multi-agent pathfinding.
+6. Getting pathfinding to work with non-rectangular obstacles.
+7. Needing to incorporate real-time changes to a map while pathfinding.
+8. Dealing with disconnected regions in a map during pathfinding.
+10. Needing to implement pathfinding for a large number of units at once.
+11. Difficulty in dealing with partial paths or paths with missing pieces.
+12. Needing to implement pathfinding with limited computational resources.
+13. Trouble in finding the optimal path when there are multiple goals.
+14. Difficulty in implementing dynamic pathfinding in a real-time game.
+17. Difficulty in implementing pathfinding for maze-like structures.
+18. Needing to optimize pathfinding for a specific hardware platform.
+19. Struggling with implementing pathfinding for a complex city traffic system.
+Other issues of Path-finding.
+

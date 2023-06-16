@@ -1,0 +1,4 @@
+Beginner Level: Questions that address basic concepts and seek introductory explanations or guidance. These questions are suitable for individuals who are new to the topic.
+Intermediate Level: Questions that require a moderate understanding of the topic and seek more specific information or solutions to intermediate-level problems.
+Advanced Level: Questions that delve into complex concepts or advanced techniques, requiring a deeper understanding of the topic and seeking advanced solutions or insights.
+Expert Level: Questions that involve specialized or advanced knowledge within a specific field, targeting experts or professionals seeking detailed and intricate solutions.

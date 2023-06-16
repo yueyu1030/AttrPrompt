@@ -1,0 +1,18 @@
+1. Cryptography - This is the science of designing secure communication systems. It is an amalgamation of discrete mathematics, computer science, and information theory.  
+
+2. Finite State Automata (FSA) - It is a mathematical model of a system that can extract patterns from a finite sequence of inputs. FSAs are used in many areas such as natural language processing, image processing, and speech recognition.
+
+3. Dynamic Programming - It is a technique used to reduce the computational complexity of a problem by breaking it down into smaller subproblems and using the solutions of these subproblems to solve the original problem. Dynamic programming is used in many fields, including economics, engineering, and computer science.
+
+4. Graph Algorithms: Graph algorithms involve analyzing and manipulating graphs, enabling tasks such as finding shortest paths, traversing graphs, determining connectivity, or identifying cycles, using techniques like breadth-first search, depth-first search, or Dijkstra's algorithm.
+
+5. Game Theory - It is a field of mathematics that deals with the study of strategic decision-making in situations where the outcome depends on the decisions of others. Game theory finds applications in economics, political science, and social sciences.
+
+6. Combinatorial Optimization - It is a technique used to find the optimal solution to a problem where the objective function is a combination of discrete decision variables. Combinatorial optimization is used in many fields, including computer science, operations research, and engineering.
+
+7. Discrete Structures: Discrete structures techniques deal with the formal representation and analysis of discrete objects and structures, including techniques such as set theory, logic, formal languages, or formal proofs.
+
+8. Topological Data Analysis - It is a technique used to extract information from data by analyzing its underlying topological structure. Topological data analysis is used in many fields, including biology, neuroscience, and physics.
+
+9. Algorithmic Game Theory - It is an interdisciplinary field that combines game theory and computer science to study the interactions between players in strategic situations
+

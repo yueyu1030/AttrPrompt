@@ -1,0 +1,10 @@
+Word Embeddings: This technique represents words as dense vectors in a continuous space, capturing semantic and syntactic relationships between words, such as Word2Vec or GloVe.
+Recurrent Neural Networks (RNNs): RNNs are used for sequence modeling in NLP tasks, allowing information to persist across time steps, such as in language modeling or machine translation.
+Attention Mechanism: This technique focuses on relevant parts of the input sequence while performing a task, enhancing the performance of tasks like machine translation or text summarization.
+Transformer Model: Transformers utilize self-attention mechanisms to model dependencies between words in parallel, enabling superior performance in tasks like machine translation and language understanding.
+Dependency Parsing: It involves analyzing the grammatical structure of sentences by assigning syntactic relationships between words, such as subject-verb-object relationships, using techniques like transition-based parsing or graph-based parsing.
+Topic Modeling: This technique aims to discover latent topics in a collection of documents, often using probabilistic models like Latent Dirichlet Allocation (LDA) or Non-negative Matrix Factorization (NMF).
+Machine Translation: It involves developing systems to automatically translate text from one language to another, often using statistical approaches like phrase-based models or neural machine translation (NMT) models.
+Corpus Analysis: This technique involves analyzing large collections of language data (corpora) to gain insights into linguistic patterns, usage frequencies, and language variation.
+Discourse Analysis: It focuses on the analysis of language beyond the sentence level, examining the structure and coherence of texts or conversations, and the ways in which meaning is constructed.
+Pragmatics: This field examines how language is used in context to convey meaning beyond the literal interpretation of words, including implicatures, speech acts, and politeness strategies.

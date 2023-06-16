@@ -1,5 +1,5 @@
 # AttrPrompt
-This repo contains the code and dataset used in the paper [Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias]()
+This repo contains the code and dataset used in the paper [Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias](). 
 It also provides a common and easy framework for development and evaluation of your own weak supervision models within the benchmark.
 
 ## Framework

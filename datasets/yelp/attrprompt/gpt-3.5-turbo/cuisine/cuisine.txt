@@ -1,0 +1,30 @@
+Turkish
+Spanish
+Greek
+Italian
+French
+American
+Mexican
+Canadian
+Cajun
+Tex-Mex
+Brazilian
+Peruvian
+Argentinean
+Colombian
+Venezuelan
+Ethiopian
+Moroccan
+South African
+Nigerian
+Egyptian
+Chinese
+Japanese
+Indian
+Thai
+Korean
+Australian
+New Zealand
+Polynesian
+Hawaiian
+Singaporean

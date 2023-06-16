@@ -1,0 +1,10 @@
+1. Regular expressions and finite automata for pattern matching in text processing.
+2. Context-free grammars and pushdown automata for parsing and syntax analysis of programming languages.
+3. Turing machines and computability theory for studying the limits of algorithmic computation.
+4. Formal language theory and automata for modeling the behavior of natural and artificial languages.
+5. Pumping lemma and Myhill-Nerode theorem for proving the non-regularity of languages.
+6. Kleene algebra and regular expression equivalences for optimizing regular expressions and automata.
+7. Closure properties of formal languages and automata for studying the relationships between different language classes.
+8. Context-sensitive languages and linear bounded automata for modeling natural language grammars.
+9. Decision problems and complexity theory for analyzing the computational complexity of problems.
+10. Finite-state transducers and grammar-based compression for lossless data compression.

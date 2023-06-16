@@ -1,0 +1,6 @@
+sklearn
+openai
+transformers==4.8.0
+pytorch==1.10.0
+tqdm
+nltk
