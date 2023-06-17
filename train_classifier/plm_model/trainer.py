@@ -88,21 +88,19 @@ def acc_and_f1(preds, labels, average='macro'):
     }
 
 class Trainer(object):
-    def __init__(self, args, train_dataset = None, dev_dataset = None, test_dataset = None, unlabeled = None, contra_datasets= [], \
+    def __init__(self, args, train_dataset = None, dev_dataset = None, test_dataset = None, unlabeled = None, \
                 num_labels = 10, data_size = 100, n_gpu = 1):
         self.args = args
         self.train_dataset = train_dataset
         self.dev_dataset = dev_dataset
         self.test_dataset = test_dataset
         self.unlabeled = unlabeled
-        self.contra_datasets = contra_datasets
         self.data_size = data_size
 
         self.num_labels = num_labels
         self.config_class = AutoConfig.from_pretrained(args.model_name_or_path, num_labels=self.num_labels)
         self.model = AutoModelForSequenceClassification.from_pretrained(args.model_name_or_path, num_labels=self.num_labels)
         self.n_gpu = 1
-        # self.devices = "cuda"
 
     def reinit(self):
         self.load_model()
@@ -135,7 +133,7 @@ class Trainer(object):
 
     def save_prediction_test(self, test_preds, test_labels):
         output_dir = os.path.join(
-            self.args.output_dir, self.args.dr_model, self.args.model_type
+            self.args.output_dir, self.args.gen_model, self.args.model_type
         )
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
@@ -156,7 +154,7 @@ class Trainer(object):
 
     def save_prediction(self, loss, preds, labels, test_preds, test_labels):
         output_dir = os.path.join(
-            self.args.output_dir, self.args.dr_model
+            self.args.output_dir, self.args.gen_model
         )
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
@@ -177,7 +175,6 @@ class Trainer(object):
 
 
     def save_model(self, stage = 0):
-        # {self.args.model_type}_{self.args.al_method}
         output_dir = os.path.join(
             self.args.output_dir,  "checkpoint-{}".format(len(self.train_dataset)), self.args.model_type, "iter-{}".format(stage), f"seed{self.args.train_seed}")
         if not os.path.exists(output_dir):
@@ -186,7 +183,6 @@ class Trainer(object):
             self.model.module if hasattr(self.model, "module") else self.model
         )  # Take care of distributed/parallel training
         model_to_save.save_pretrained(output_dir)
-        # tokenizer.save_pretrained(output_dir)
 
         torch.save(self.args, os.path.join(output_dir, "training_args.bin"))
         # torch.save(self.model.state_dict(), os.path.join(output_dir, "model.pt"))
@@ -284,17 +280,12 @@ class Trainer(object):
             ndcg_5 = ndcg_score(out_label_ids, preds_probs, k = 5)
             f1_macro = f1_score(out_label_ids, preds_binary, average='macro')
             f1_micro = f1_score(out_label_ids, preds_binary, average='micro')
-            jaccard_sample = jaccard_score(out_label_ids, preds_binary, average='samples')
-            jaccard_macro = jaccard_score(out_label_ids, preds_binary, average='macro')
             precision_1, precision_1_per_example = calculate_precision_at_k(out_label_ids, preds_probs, k = 1)
             precision_3, precision_3_per_example = calculate_precision_at_k(out_label_ids, preds_probs, k = 3)
             precision_5, precision_5_per_example = calculate_precision_at_k(out_label_ids, preds_probs, k = 5)
-            # print(precision_5_per_example.shape)
             mrr, reciprocal_ranks = calculate_mrr(out_label_ids, preds_probs)
-            # print(reciprocal_ranks)
-
             print("=========================")
-            print("NDCG@1", ndcg_1, "NDCG@3", ndcg_3, "NDCG@5", ndcg_5, "F1 Macro", f1_macro, "F1 Micro", f1_micro, "Jaccard Sample", jaccard_sample, "Jaccard Macro", jaccard_macro)
+            print("NDCG@1", ndcg_1, "NDCG@3", ndcg_3, "NDCG@5", ndcg_5, "F1 Macro", f1_macro, "F1 Micro", f1_micro)
             print("P@1",precision_1, "P@3",precision_3, "P@5",precision_5,  "MRR", mrr)
             print("=========================")
             if return_preds:
@@ -413,7 +404,7 @@ class Trainer(object):
         result_dict['acc'] = acc_f1
         result_dict['lr'] = self.args.learning_rate
         result_dict['bsz'] = self.args.batch_size
-        result_dict['model'] = self.args.dr_model
+        result_dict['model'] = self.args.gen_model
         print(f'Test: Loss: {loss_test}, Acc: {acc_test}, F1: {acc_f1}')
         self.save_prediction_test(preds_probs, out_label_ids)
         self.save_model(stage = n_sample)

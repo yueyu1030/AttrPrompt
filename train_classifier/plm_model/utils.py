@@ -238,14 +238,11 @@ def load_and_cache_examples(args, tokenizer, mode, size = -1, contra_name = None
     else:
         cached_features_file = os.path.join(
             args.cache_dir,
-            'cached_{}_{}_{}_{}_round{}_filter{}_tmp{}'.format(
+            'cached_{}_{}_{}_{}'.format(
                 mode,
                 args.task,
                 list(filter(None, args.model_name_or_path.split("/"))).pop(),
                 args.max_seq_len,
-                args.round,
-                args.filter,
-                args.template,
             )
         )
 

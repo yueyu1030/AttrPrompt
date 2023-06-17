@@ -67,9 +67,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser("")
     parser.add_argument("--gpu", type=int, default=0)
     parser.add_argument("--dataset", type=str, default=0)
-    parser.add_argument("--model", type=str, default=0)
+    parser.add_argument("--method", type=str, default=0)
     parser.add_argument("--sentence_embedding_model", type=str, default='bert')
-    parser.add_argument("--n", type=int, default=0)
     parser.add_argument("--file_name", type=str, default='train.jsonl') # the file name that need to be embed
 
     args = parser.parse_args()
@@ -93,7 +92,7 @@ if __name__ == "__main__":
     model = AutoModel.from_pretrained(embedding_model).to(f"cuda:{gpuid}")
     sentences, labels = load_sentences(f"{args.file_name}")
     embeddings = tokenization(args, sentences, tokenizer, model, batch_size = 256, normalize = False)
-    os.makedirs(f"/localscratch/yueyu/datasets/{args.dataset}/{args.sentence_embedding_model}", exist_ok= True)
-    np.save(f"/localscratch/yueyu/datasets/{args.dataset}/{args.sentence_embedding_model}/embeddings_{args.model}_norm.npy", embeddings)
-    np.save(f"/localscratch/yueyu/datasets/{args.dataset}/{args.sentence_embedding_model}/labels_{args.model}_norm.npy", labels)
+    os.makedirs(f"./{args.dataset}/{args.sentence_embedding_model}", exist_ok= True)
+    np.save(f"./{args.dataset}/{args.sentence_embedding_model}/embeddings_{args.method}.npy", embeddings)
+    np.save(f"./{args.dataset}/{args.sentence_embedding_model}/labels_{args.method}.npy", labels)
     
