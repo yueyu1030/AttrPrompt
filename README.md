@@ -27,10 +27,10 @@ Besides, we also provide the generated dataset for the AG News, SST-2/IMDB, Yelp
 Please see the subfolders on the `./datasets` directory for attributes information.
 
 ## Code for Training Data Generation
-Coming soon...
+See `gen_train_data` for details.
 
 ## Code for Classifier Training
-Coming soon...
+See `train_classifier` for details.
 
 ## Questions?
 Feel free to reach out to `yueyu at gatech.edu` for any questions regarding this repo. Please try to specify the problem with details so we can help you better and quicker!

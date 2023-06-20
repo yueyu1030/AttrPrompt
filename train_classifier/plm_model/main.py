@@ -2,27 +2,22 @@
 import argparse
 import os
 from utils import load_and_cache_examples, load_and_cache_unlabeled_examples, init_logger, load_tokenizer
-from trainer_semi import Trainer
+from trainer import Trainer
 import torch 
 import numpy as np 
 import random 
 import torch.nn as nn
 from torch.utils.data import DataLoader, ConcatDataset, TensorDataset, Subset
-import json
-import pickle 
-from eval import inference_cal, inference_conf, inference_uncertainty, load_pred_data, save_data, create_new_dataset, plot_data
+
 import matplotlib 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt 
-import copy 
 
 def set_seed(args):
     random.seed(args.train_seed)
     np.random.seed(args.train_seed)
     torch.manual_seed(args.train_seed)
     if args.n_gpu > 0  and torch.cuda.is_available():
-        # print('yes')
-        # assert 0
         torch.cuda.manual_seed_all(args.train_seed)
         torch.cuda.manual_seed(args.train_seed)
     torch.backends.cudnn.deterministic = True

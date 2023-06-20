@@ -2,7 +2,7 @@
 This directory contains the code for training the classification model with the generated training data.
 
 ## Fine-tuning Pretrained Language Models
-Use the following commands
+The code in in the `plm_model` folder. Use the following commands
 ```
 bash commands/run_nyt.sh ${gpu}
 ```

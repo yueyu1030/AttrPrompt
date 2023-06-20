@@ -137,7 +137,7 @@ class Processor(object):
             self.num_label = 4
         elif self.args.task in ['amazon', 'YelpReviewPolarity','imdb','youtube', 'amazon-polarity', 'SST-2', 'sst2', 'elec', 'qnli', 'yelp']:
             self.num_label = 2
-        elif self.args.task in ['nyt-fine']:
+        elif self.args.task in ['nyt']:
             self.num_label = 26
         elif self.args.task in ['amazon-product']:
             self.num_label = 23
