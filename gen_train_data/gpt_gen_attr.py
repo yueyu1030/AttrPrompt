@@ -15,7 +15,7 @@ def clean_str(string):
     string = re.sub(r"\s{2,}", " ", string)
     return string.strip()
 
-api_key = 'YOUR_KEY_FOR_OPENAI_API' # change this to your id
+api_key = 'YOUR_OPENAI_API_KEY' # change this to your id
 
 parser = argparse.ArgumentParser("")
 parser.add_argument("--prompt", type=str, default="")

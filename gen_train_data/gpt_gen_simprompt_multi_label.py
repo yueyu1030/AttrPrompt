@@ -121,7 +121,6 @@ def main(args):
                         top_p=1.0,
                     )
                 )
-                # time.sleep(3)
             except openai.error.RateLimitError:
                 print(f"Error for class {i}")
                 time.sleep(10)
