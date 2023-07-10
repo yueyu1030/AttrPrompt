@@ -36,4 +36,13 @@ See `train_classifier` for details.
 Feel free to reach out to `yueyu at gatech.edu` for any questions regarding this repo. Please try to specify the problem with details so we can help you better and quicker!
 
 ## Citation
-Coming soon...
+If you find this repository helpful, please kindly consider citing the corresponding paper. Thanks in advance!
+
+```
+@article{yu2023large,
+  title={Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias},
+  author={Yu, Yue and Zhuang, Yuchen and Zhang, Jieyu and Meng, Yu and Ratner, Alexander and Krishna, Ranjay and Shen, Jiaming and Zhang, Chao},
+  journal={arXiv preprint arXiv:2306.15895},
+  year={2023}
+}
+```
