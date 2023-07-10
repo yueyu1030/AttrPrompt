@@ -171,7 +171,6 @@ def main(args):
             prompt_tmp = {x: attr_dict_cls[x][return_dict[x]] for x in return_dict}
             attr_lst.append(return_dict)
             if args.dataset ==  'amazon-product':
-
                 prompt_input = f"Write a review for  {re.sub('_', ' ', class_name)} product in Amazon, following the requirements below: \n \
                             1. the review should be about the product of '{prompt_tmp['product_name']}';\n \
                             2. the brand of the {re.sub('_', ' ', class_name)} product should be '{prompt_tmp['brands']}'; \n \
@@ -179,20 +178,23 @@ def main(args):
                             4. should describe the usage experience: {prompt_tmp['experience']};\n \
                             5. the review should be focus on '{prompt_tmp['style']}';\n \
                             6. the review must be relevant to {re.sub('_', ' ', class_name)} and irrelevant to: {similar_label}."
+
             elif args.dataset ==  'sst2':
                 prompt_input = f"Write a {re.sub('_', ' ', class_name)} review for a movie, following the requirements below: \n \
                             1. the overall rating should be {re.sub('_', ' ', class_name)};\n \
                             2. the review should discuss about a {prompt_tmp['genre']} movie;  \n \
                             3. the review should focus on '{prompt_tmp['subtopics']}'; \n \
                             4. should be in length between {prompt_tmp['length']} words and {int(prompt_tmp['length']) + 50} words;\n \
-                            5. the style of the review should be '{prompt_tmp['style']}'"
+                            5. the style of the review should be '{prompt_tmp['style']}'."
+
             elif args.dataset ==  'yelp':
                 prompt_input = f"Write a {re.sub('_', ' ', class_name)} review for a restaurant, following the requirements below: \n \
                             1. the overall review should be {re.sub('_', ' ', class_name)}';\n \
                             2. should be a '{prompt_tmp['cuisine']}' restaurant';  \n \
                             3. should focus on '{prompt_tmp['subtopics']}'; \n \
                             4. should be in length between {prompt_tmp['length']} words and {int(prompt_tmp['length']) + 50} words;\n \
-                            5. the style of the review should be '{prompt_tmp['style']}'"
+                            5. the style of the review should be '{prompt_tmp['style']}'."
+
             elif args.dataset == 'reddit':
                 prompt_input = f"Give a synthetic sample of post in reddit on {re.sub('_', ' ', class_name)} community following the requirements below: \n\
                             1. should focus on '{prompt_tmp['experience']}';\n \
@@ -208,19 +210,21 @@ def main(args):
                             3. The writing style of the news should be '{prompt_tmp['style']}';\n \
                             4. The location of the news should be in {prompt_tmp['location']}; \n \
                             5. The news must be relevant to {re.sub('_', ' ', class_name)} and irrelevant to: {similar_label}."
+                            
             elif args.dataset == 'agnews':
                 prompt_input = f"Give a synthetic sample of news on {re.sub('_', ' ', class_name)} following the requirements below: \n\
                             1. should focus on '{prompt_tmp['subtopics']}';\n \
                             2. should be in length between {prompt_tmp['length']} words and {int(prompt_tmp['length']) + 50} words;\n \
                             3. The writing style of the news should be '{prompt_tmp['style']}';\n \
-                            4. The location of the news should be in {prompt_tmp['location']}; \n"
+                            4. The location of the news should be in {prompt_tmp['location']}. \n"
 
             elif args.dataset == 'stackexchange':
                 prompt_input = f"Give a synthetic sample of question post in {args.dataset} on {re.sub('_', ' ', class_name)} following the requirements below: \n\
                             1. should focus on the scenario of '{prompt_tmp['scenario']}';\n \
                             2. should be in length between {prompt_tmp['length']} words and {int(prompt_tmp['length']) + 50} words;\n \
-                            3. The question should be in {prompt_tmp['depth']}; \n \
-                            4. The writing style of the question should be '{prompt_tmp['style']}';\n."
+                            3. The question should be in {prompt_tmp['depth']};\n \
+                            4. The writing style of the question should be '{prompt_tmp['style']}';\n \
+                            5. The post must be relevant to {re.sub('_', ' ', class_name)} and irrelevant to: {similar_label}."
 
             if attempt == 0 and len(prompt_lst) == 0:
                 print(f"Prompt Input: {prompt_input}")

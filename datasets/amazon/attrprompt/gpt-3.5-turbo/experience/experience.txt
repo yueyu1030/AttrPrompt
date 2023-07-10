@@ -1,0 +1,5 @@
+Worst: A highly unsatisfactory or problematic experience. Users may encounter multiple issues, such as usability problems, errors, and frustrations, leading to a negative overall impression.
+Bad: A below-average experience. Users may encounter some difficulties or frustrations while interacting with the product or service, but the overall experience falls short of meeting their expectations.
+Average: A neutral or middling experience. Users may not encounter major issues, but the experience lacks any exceptional aspects or standout features. It is a middle-of-the-road experience that neither impresses nor disappoints.
+Good: A positive and satisfactory experience. Users have a smooth and enjoyable experience with minimal issues or obstacles. The product or service meets their expectations and provides a pleasant overall experience.
+Excellent: The highest level of satisfaction. Users have a seamless, delightful, and memorable experience. The product or service exceeds their expectations, offering exceptional usability, performance, and value.
