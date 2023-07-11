@@ -23,6 +23,30 @@ Besides, we also provide the generated dataset for the AG News, SST-2/IMDB, Yelp
 | SST-2 | 6k | 0.8k | 2 | Multiclass | Movie Review |  [SST-2-attrprompt](https://huggingface.co/datasets/yyu/SST-2-attrprompt)
 | Yelp | 6k | 38k | 2 |Multiclass | Restaurant Review | [yelp-attrprompt](https://huggingface.co/datasets/yyu/yelp-attrprompt)
 
+### Load Datasets
+For the original train/valid/test set, we use the following commands for loading the data from the huggingface data hub (we use `nyt` dataset as an example, same as follows): 
+```
+from datasets import load_dataset
+
+train = load_dataset("yyu/nyt-attrprompt", split="train")
+valid = load_dataset("yyu/nyt-attrprompt", split="valid")
+test = load_dataset("yyu/nyt-attrprompt", split="test")
+```
+For `attrprompt`, `simprompt`, [`progen`](https://github.com/HKUNLP/ProGen/), [`regen`](https://github.com/yueyu1030/ReGen) and `regen_llm_augmented`, we use the following commands for loading the data from the huggingface data hub: 
+```
+from datasets import load_dataset
+
+attrprompt = load_dataset("yyu/nyt-attrprompt", data_files="attrprompt.jsonl", split = 'train')
+
+simprompt = load_dataset("yyu/nyt-attrprompt", data_files="simprompt.jsonl", split = 'train')
+
+progen = load_dataset("yyu/nyt-attrprompt", data_files="progen.jsonl", split = 'train')
+
+regen = load_dataset("yyu/nyt-simprompt", data_files="regen.jsonl", split = 'train')
+
+regen_llm_augmented = load_dataset("yyu/nyt-simprompt", data_files="regen_llm_augmented.jsonl", split = 'train')
+```
+
 ###  Dataset Attributes
 Please see the subfolders on the `./datasets` directory for attributes information.
 
