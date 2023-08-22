@@ -36,7 +36,7 @@ For `attrprompt`, `simprompt`, [`progen`](https://github.com/HKUNLP/ProGen/), [`
 ```
 from datasets import load_dataset
 
-attrprompt = load_dataset("yyu/nyt-attrprompt", data_files="attrprompt.jsonl", split = 'train')
+attrprompt = load_dataset("yyu/nyt-attrprompt", data_files="attrprompt-v1.jsonl", split = 'train')
 
 simprompt = load_dataset("yyu/nyt-attrprompt", data_files="simprompt.jsonl", split = 'train')
 
