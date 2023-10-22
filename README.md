@@ -1,5 +1,5 @@
 # AttrPrompt
-This repo contains the code and dataset used in the paper [Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias](https://arxiv.org/abs/2306.15895), to appear at NeurIPS 2023 (D&B Track). 
+This repo contains the code and dataset used in the paper [Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias](https://arxiv.org/abs/2306.15895), which will appear at NeurIPS 2023 (D&B Track). 
 It also provides a framework for developing and evaluating your training data generation pipelines with Large Language Models.
 
 ## Framework
