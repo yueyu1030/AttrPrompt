@@ -1,13 +1,13 @@
 # AttrPrompt
-This repo contains the code and dataset used in the paper [Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias](). 
-It also provides a framework for development and evaluation of your own training data generation models.
+This repo contains the code and dataset used in the paper [Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias](https://arxiv.org/abs/2306.15895), to appear at NeurIPS 2023 (D&B Track). 
+It also provides a framework for developing and evaluating your training data generation pipelines with Large Language Models.
 
 ## Framework
 ![Attrprompt](figure/workflow-v3-cut.png)
 
 ## Dataset
 ### Generated Datasets
-The datasets, including the original train/valiation/test data, the generated training data, as well as label names are available in Huggingface Dataset Hub:
+The datasets, including the original train/validation/test data, the generated training data, as well as label names are available in Huggingface Dataset Hub:
 | Dataset | # Train | # Test | # Class | Task  | Domain | Link | 
 | ------  | ------- | ----- | ----------- | ----------- | ----------- | ----------- |
 |  NYT | 9k | 1.15k | 26 | Multiclass | News | [nyt-attrprompt](https://huggingface.co/datasets/yyu/nyt-attrprompt)
@@ -16,7 +16,7 @@ The datasets, including the original train/valiation/test data, the generated tr
 | StackExchange | 27k | 2.5k | 50 | Multiclass | Web Forum | [stackexchange-attrprompt](https://huggingface.co/datasets/yyu/stackexchange-attrprompt)
 | arXiv | 26.1k | 27.8k | 98 | Multilabel | Paper | [arxiv-attrprompt](https://huggingface.co/datasets/yyu/arxiv-attrprompt)
 
-Besides, we also provide the generated dataset for the AG News, SST-2/IMDB, Yelp, which is studied in Appendix. The detailed information is listed as follows:
+Besides, we also provide the generated dataset for AG News, SST-2/IMDB, and Yelp, which is studied in the Appendix. The detailed information is listed as follows:
 | Dataset | # Train | # Test | # Class | Task  | Domain | Link | 
 | ------  | ------- | ----- | ----------- | ----------- | ----------- | ----------- |
 |  AG News | 6k | 7.6k | 4 | Multiclass | News | [agnews-attrprompt](https://huggingface.co/datasets/yyu/agnews-attrprompt)
@@ -48,7 +48,7 @@ regen_llm_augmented = load_dataset("yyu/nyt-simprompt", data_files="regen_llm_au
 ```
 
 ###  Dataset Attributes
-Please see the subfolders on the `./datasets` directory for attributes information.
+Please see the subfolders on the `./datasets` directory for attribute information.
 
 ## Code for Training Data Generation
 See `gen_train_data` for details.
@@ -57,7 +57,7 @@ See `gen_train_data` for details.
 See `train_classifier` for details.
 
 ## Questions?
-Feel free to reach out to `yueyu at gatech.edu` for any questions regarding this repo. Please try to specify the problem with details so we can help you better and quicker!
+Feel free to contact `yueyu at gatech.edu` for any questions regarding this repo. Please try to specify the problem with details so we can help you better and quicker!
 
 ## Citation
 If you find this repository helpful, please kindly consider citing the corresponding paper. Thanks in advance!
