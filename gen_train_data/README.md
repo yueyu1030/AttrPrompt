@@ -81,7 +81,7 @@ After generate the subtopics, instead of filtering the ambiguous subtopics, we u
 python merge_subtopics_multi_label.py
 ```
 
-Then, use tfollowing commands to generate training data with  attributes.
+Then, use the following commands to generate training data with attributes.
 ```
 python gpt_gen_attrprompt_multi_label.py --dataset=${dataset} --batch_size=20 --n_sample=500 --top_p=1.0 --temperature=1.0 --output_dir=../datasets/attrprompt/gpt-3.5-turbo
 ```
